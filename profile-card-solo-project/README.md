@@ -1,4 +1,4 @@
-# co1d441a4af624e51d43acb94
+# Profile card solo project built with React
 
 Quick start:
 
