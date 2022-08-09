@@ -8,8 +8,6 @@ body {
 }
 
 .main {
-    height: 868px;
-    width: 550px;
     margin: 0 auto;
     padding: 50px 0;
     background: #23252C;
@@ -25,6 +23,7 @@ body {
     border-radius: 15px;
     overflow: hidden;
     text-align: center;
+    position: relative;
 }
 h1 {
     margin: 20px 0 5px;

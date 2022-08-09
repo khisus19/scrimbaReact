@@ -1,9 +1,9 @@
-import React from "react"
+import React from "react";
 
 export default function Info() {
     return(
         <div>
-            <img src="../images/profile-pic.jpg" />
+            <img src="../../src/img/profile-pic.webp" alt="Profile" />
             <h1>Laura Martinez</h1>
             <h4>Frontend Developer</h4>
             <a>laura.website.com</a>
