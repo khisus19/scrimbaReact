@@ -71,10 +71,16 @@ button {
     font-size: 14px;
     cursor: pointer;
 }
+button:hover {
+    background-color: #D1D5DB;
+}
 .blue-button {
     background: #297FE5;
     border: none;
     color: #fff;
+}
+.blue-button:hover {
+    background-color: #136bd8;
 }
 
 /* About section */
@@ -104,4 +110,7 @@ p {
     justify-content: center;
     align-items: center;
     gap: 25px;
+}
+.footer svg {
+    cursor: pointer;
 }
