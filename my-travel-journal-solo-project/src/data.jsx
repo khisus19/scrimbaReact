@@ -1,5 +1,6 @@
 export default [
   {
+    id: 1,
     title: "Mount Fuji",
     location: "Japan",
     googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -9,6 +10,7 @@ export default [
     imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
   },
   {
+    id: 2,
     title: "Sydney Opera House",
     location: "Australia",
     googleMapsUrl: "https://goo.gl/maps/wLpGDp8marjiPYYV7",
@@ -18,6 +20,7 @@ export default [
     imageUrl: "https://source.unsplash.com/JmuyB_LibRo"
   },
   {
+    id: 3,
     title: "Geirangerfjord",
     location: "Norway",
     googleMapsUrl: "https://goo.gl/maps/yM4Q8EYyomPjrcMZ6",
@@ -27,12 +30,13 @@ export default [
     imageUrl: "https://source.unsplash.com/3PeSjpLVtLg"
   },
   {
+    id: 4,
     title: "Teotihuacan",
     location: "Mexico",
     googleMapsUrl: "https://goo.gl/maps/XTfgsuxjD1Bi6UA77",
     startDate: "02 Oct, 2023",
     endDate: "07 Oct, 2023",
-    description: "The holy city of Teotihuacan ('the place where the gods were created') is situated some 50 km north-east of Mexico City. Built between the 1st and 7th centuries A.D., it is characterized by the vast size of its monuments, in particular, the Temple of Quetzalcoatl and the Pyramids of the Sun and the Moon, laid out on geometric and symbolic principles.",
+    description: "The holy city of Teotihuacan ('the place where the gods were created') was built between the 1st and 7th centuries A.D., it is characterized by the vast size of its monuments, in particular, the Temple of Quetzalcoatl and the Pyramids of the Sun and the Moon, laid out on geometric and symbolic principles.",
     imageUrl: "https://source.unsplash.com/OKlgGGanlwY"
   }
 ]

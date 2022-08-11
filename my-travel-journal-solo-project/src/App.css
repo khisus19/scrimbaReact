@@ -23,3 +23,62 @@ nav p {
   line-height: 18px;
   letter-spacing: -0.075em;
 }
+
+/* Cards styles */
+.cards-grid-container {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 3fr;
+}
+.img-container {
+  width: 125px;
+  height: 168px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.card-info {
+  max-width: 350px;
+  padding-top: 5px;
+}
+.top-line {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 400;
+}
+svg {
+  margin-right: 5px;
+}
+a {
+  color: #918E9B;
+  margin: 0 12px;
+}
+h2, h4 {
+  margin: 5px 0 15px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+}
+h4 {
+  font-size: 11px;
+  line-height: 12px;
+  margin-bottom: 10px;
+}
+.card-info > p {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #2B283A;
+}
