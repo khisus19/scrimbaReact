@@ -17,7 +17,7 @@
 }
 body {
   font-size: 62.5%;
-  background-color: linear-gradient(90deg, var(--black), var(--dark-blue));
+  background: linear-gradient(90deg, var(--black), var(--dark-blue));
   color: var(--white);
   font-family: Inter, sans serif;
 }
