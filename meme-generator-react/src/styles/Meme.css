@@ -1,7 +1,7 @@
 main {
   height: fit-content;
 }
-form {
+.form {
   width: 100%;
   margin: 20px auto;
   display: flex;
@@ -38,11 +38,12 @@ input {
 }
 .meme__container img {
   width: 100%;
+  max-width: 1000px;
 }
 .meme__container h2 {
   position: absolute;
   text-align: center;
-  font-size: clamp(1.2rem, 2rem, 4vw);
+  font-size: clamp(1.6rem, 2.6rem, 5.5vw);
   margin: 15px 0;
   padding: 0 5px;
   font-family: Oswald, sans-serif;
