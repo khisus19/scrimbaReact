@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
+import Split from "react-split"
+import { nanoid } from 'nanoid'
 import './App.css'
+import Sidebar from "./assets/components/Sidebar"
+import Editor from "./assets/components/Editor"
 
 function App() {
   const [notes, setNotes] = useState(
@@ -13,7 +16,7 @@ function App() {
   useEffect(() => {
       localStorage.setItem("notes", JSON.stringify(notes))
   }, [notes])
-
+  
   function createNewNote() {
       const newNote = {
           id: nanoid(),
@@ -24,8 +27,8 @@ function App() {
   }
 
   function updateNote(text) {
-    const newArr = []
-    setNotes(oldNotes => {
+      setNotes(oldNotes => {
+        const newArr = []
         oldNotes.map(oldNote => {
             oldNote.id === currentNoteId
                 ? newArr.unshift({ ...oldNote, body: text })

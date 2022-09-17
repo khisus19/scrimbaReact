@@ -1,0 +1,58 @@
+.editor {
+  font-family: 'Karla', sans-serif;
+}
+.react-mde {
+  display: flex;
+  flex-direction: column;
+}
+
+.mde-header {
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+.mde-tabs {
+  width: 100%;
+  padding: 10px;
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mde-tabs button {
+  width: 60px;
+  height: 40px;
+  margin: 10px;
+  background-color: transparent;
+  border: 1px solid black;
+  font-weight: 500;
+}
+
+/* Edit markdown buttons */
+.mde-header-group {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mde-header svg {
+  height: 40px;
+  padding: 10px;
+}
+
+.mde-header-item {
+  list-style: none;
+}
+.mde-header-item button {
+  background-color: transparent;
+  border: none;
+}
+.mde-textarea-wrapper, .mde-text {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+}
